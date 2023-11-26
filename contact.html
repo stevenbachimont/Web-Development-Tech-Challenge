@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <title>Web Development Tech Challenge</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="header">
+    <div>
+        <a href="index.html"><img class="logo1" src="assets/the-argo-logo-black.png" alt="logo1"></a>
+        <a href="index.html"><img class="logo2" src="assets/the-argo-logo-light.png" alt="logo2"></a>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#blabla">About</a></li>
+            <li><a href="family.html">Royal Family</a></li>
+            <li><a href="assets.html">Royal assets</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+
+<section id="contact" class="flex-container">
+    <form id="contactForm">
+        <p>
+            Fill in the form below to contact the Royal Kingdom
+        </p>
+        <label for="name">First name:</label><br>
+        <input type="text" id="name" name="name" value="John"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="example@seamail.com"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<!-- Connect the Javascript file -->
+<script src="script.js"></script>
+</body>
+</html>
