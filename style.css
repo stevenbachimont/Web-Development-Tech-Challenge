@@ -98,7 +98,7 @@ section {
     padding: 20px;
 }
 
-.flex-container {
+.flex-container2 {
     position: relative;
     overflow: hidden;
     display:flex;
@@ -110,6 +110,28 @@ section {
     backdrop-filter: blur(0.7rem) saturate(50%);
     -webkit-backdrop-filter: blur(0.7rem);
     z-index: 1;
+}
+
+.flex-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(0.7rem) saturate(50%);
+    -webkit-backdrop-filter: blur(0.7rem);
+    z-index: 1;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .pictures {
@@ -141,6 +163,44 @@ section {
     background-image: url("assets/royaume3.jpeg");
     background-size: cover;
     border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    background-color: rgba(69, 91, 68, 0.43);
+    color: #b2b2b2;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: rgba(69, 91, 68, 0.7);
+    color: #dddddd;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: rgba(69, 91, 68, 0.7);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    th, td {
+        font-size: 12px;
+        padding: 6px;
+    }
 }
 
 #contact {
@@ -201,3 +261,5 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: rgba(12, 255, 0, 0.7);
 }
+
+
