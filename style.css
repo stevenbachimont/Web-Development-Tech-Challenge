@@ -122,11 +122,25 @@ section {
     }
 }
 
+
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.family {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    background-image: url("assets/royaume2.jpeg");
+    background-size: cover;
 }
 
 .pictures {
@@ -145,16 +159,6 @@ section {
 #about {
     height: 400px;
     background-image: url("assets/royaume.jpeg");
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#family {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-    background-image: url("assets/royaume2.jpeg");
     background-size: cover;
     border-radius: 10px;
 }
