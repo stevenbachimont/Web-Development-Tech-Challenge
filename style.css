@@ -163,10 +163,14 @@ section {
     border-radius: 10px;
 }
 
-#assets {
-    height: 750px;
+.assets {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
     background-image: url("assets/royaume3.jpeg");
     background-size: cover;
+    margin: 20px;
     border-radius: 10px;
 }
 
@@ -283,4 +287,19 @@ input[type="submit"]:hover {
         width: 500px;
         height: 100px;
     }
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 20px;
+    font-family: "Acme", sans-serif;
+    font-size: 14px;
+    color: #b2b2b2;
+    background-color: #363636;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+
 }
